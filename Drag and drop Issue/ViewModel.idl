@@ -1,0 +1,9 @@
+﻿namespace SimpleIslandApp
+{
+    [bindable]
+    [default_interface]
+    runtimeclass ViewModel : Microsoft.UI.Xaml.Controls.TreeViewItem
+    {
+        ViewModel();
+    }
+}

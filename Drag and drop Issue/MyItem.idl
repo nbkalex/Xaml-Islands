@@ -1,0 +1,11 @@
+﻿namespace SimpleIslandApp
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyItem
+    {
+        MyItem(String name);
+        Windows.Foundation.Collections.IObservableVector<MyItem> Children{ get; };
+        String Name{ get; };
+    }
+}
