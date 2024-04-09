@@ -11,7 +11,7 @@
     <TreeView x:Name="tree" >
         <TreeView.ItemTemplate>
             <DataTemplate x:DataType="local:MyItem" >
-                <local:ViewModel Content="{x:Bind Name}" ItemsSource="{x:Bind Children}" />
+                <TreeViewItem Content="{x:Bind Name}" ItemsSource="{x:Bind Children}" />
             </DataTemplate>
         </TreeView.ItemTemplate>
     </TreeView>
